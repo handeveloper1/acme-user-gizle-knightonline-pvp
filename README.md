@@ -9,45 +9,49 @@ Orijinal sistemde “SimpleGui” gibi ücretli bir kütüphane kullanılmışt�
 Kütüphaneler yüklendikten sonra Python dosyasını çalıştırarak sisteminizi test edebilirsiniz.
 İsterseniz pyinstaller ile .exe oluşturup farklı cihazlarda kullanabilirsiniz.
 
-📦 Gerekli Kütüphaneler
+## ⚙️ Kurulum
 
-Projenin sorunsuz çalışması için aşağıdaki kütüphaneleri kurmanız gerekir:
+📌 Kütüphaneleri yüklemek için terminalde şu komutu çalıştırın:
 
-pip install pymem psutil tkinter
+<p align="center"> <img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="120"/> </p>
+
+```bash
+pip install pymem psutil tkinter pyinstaller
+```
 
 
-💡 Not:
+## 💡 Not:
 Tkinter genellikle Python ile birlikte gelir.
 Eksikse şu komutu kullanabilirsiniz:
 
 sudo apt-get install python3-tk   # Linux için
 
-🐍 Minimum Python Sürümü
-
+## 🐍 Minimum Python Sürümü
+```bash
 Python 3.9 – 3.13 sürümleri arasında sorunsuz çalışır.
-
-⚙️ Nasıl Çalıştırılır
+```
+## ⚙️ Nasıl Çalıştırılır
 
 1️⃣ Yukarıdaki kütüphaneleri yükleyin.
 2️⃣ Dosyayı çalıştırın:
-
+```bash
 python main.py
-
+```
 
 3️⃣ Dilerseniz pyinstaller ile .exe oluşturabilirsiniz:
-
+```bash
 pyinstaller --onefile --noconsole main.py
-
+```
 
 4️⃣ Oluşturulan .exe dosyasını başka bilgisayarlarda da kolayca çalıştırabilirsiniz.
 
-🧩 Kullanım Talimatı
+## 🧩 Kullanım Talimatı
 
 Kütüphaneleri kurduktan sonra python dosyasını çalıştırın.
 İsterseniz .exe hâline getirip başka bilgisayarlarda da çalıştırabilirsiniz.
 Gerekli dosyaları seçip “User Gizle” adımını tamamlayın — işlem tamamdır ✅
 
-🧠 Kullanılan Kütüphaneler
+## 🧠 Kullanılan Kütüphaneler
 import pymem
 import pymem.process
 import psutil
@@ -56,7 +60,7 @@ from tkinter import ttk, messagebox
 import time
 import threading
 
-💡 Ek Bilgi
+## 💡 Ek Bilgi
 
 Proje, Python GUI (tkinter) ve bellek işlemleriyle etkileşen modüller üzerinde temel örnek niteliği taşır.
 İlerleyen sürümlerde ek işlevler veya hata ayıklama özellikleri eklenebilir.

@@ -64,3 +64,8 @@ import threading
 
 Proje, Python GUI (tkinter) ve bellek işlemleriyle etkileşen modüller üzerinde temel örnek niteliği taşır.
 İlerleyen sürümlerde ek işlevler veya hata ayıklama özellikleri eklenebilir.
+
+
+<img width="1665" height="864" alt="image" src="https://github.com/user-attachments/assets/8ebfd98e-722c-4dfa-8212-4f623e038f50" />
+
+<img width="1465" height="774" alt="image" src="https://github.com/user-attachments/assets/042adb36-cbac-428b-8a42-e68b442152ab" />

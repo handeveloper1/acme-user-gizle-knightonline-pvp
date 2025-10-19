@@ -1,9 +1,11 @@
 🧱 acme-user-gizle-knightonline-pvp
 🚀 PyMem Toolkit
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.9%20--%203.13-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/Platform-Windows-green?logo=windows" alt="Platform"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> </p>
+
 ## 📖 Proje Hakkında
 
 Cheat Engine bulduğunuz user gizleme offset'inin pythonda memory write/read için derlenmiş bir demosudur.
+Yarın öbürgün ofsetler adresler değişir ise cheat engineden adressleri bulup güncellediğinizde çalışacaktır.
 Kötü bir amaç taşımaz. Sadece oyunucu gizleyip daha düşük sistemler minimum kaynak kullanımı hedefler.
 
 Aynı anda birden çok client için uygulayabilirsiniz.

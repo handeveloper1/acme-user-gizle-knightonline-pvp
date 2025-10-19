@@ -3,9 +3,6 @@
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.9%20--%203.13-blue?logo=python" alt="Python"> <img src="https://img.shields.io/badge/Platform-Windows-green?logo=windows" alt="Platform"> <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"> </p>
 📖 Proje Hakkında
 
-Bu proje Python kullanılarak geliştirilmiştir ve belirli işlemleri otomatikleştirmeye yönelik bir arayüz içerir.
-Orijinal sistemde “SimpleGui” gibi ücretli bir kütüphane kullanılmıştı; bu proje, o yapıyı kaldırıp tkinter tabanlı bir arayüzle yeniden düzenlenmiştir.
-
 Kütüphaneler yüklendikten sonra Python dosyasını çalıştırarak sisteminizi test edebilirsiniz.
 İsterseniz pyinstaller ile .exe oluşturup farklı cihazlarda kullanabilirsiniz.
 

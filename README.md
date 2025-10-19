@@ -13,9 +13,13 @@ Tkinter genellikle Python ile birlikte gelir, ancak eksikse aşağıdaki komutu 
 
 sudo apt-get install python3-tk   # Linux için
 
+
+
 🐍 Minimum Python Sürümü
 
 Python 3.9 – 3.13 arasında sorunsuz çalışır.
+
+
 
 ⚙️ Nasıl Çalıştırılır
 
@@ -26,18 +30,25 @@ Dosyayı şu şekilde çalıştırın:
 python main.py
 
 
+
 Dilerseniz pyinstaller kullanarak .exe hâline getirebilirsiniz:
 
 pyinstaller --onefile --noconsole main.py
 
 
+
+
 Böylece dosyayı farklı bilgisayarlarda da kolayca çalıştırabilirsiniz.
+
+
 
 🧩 Kullanım Talimatı
 
 Kütüphaneleri kurduktan sonra pythonu çalıştırın.
 İsterseniz pyinstaller ile .exe yapıp diğer bilgisayarlarınıza atabilirsiniz.
 Acme serverlarının .exe dosyalarını seçin, User Gizle’ye tıklayın — işlem tamam ✅
+
+
 
 🧠 Kullanılan Kütüphaneler
 import pymem
